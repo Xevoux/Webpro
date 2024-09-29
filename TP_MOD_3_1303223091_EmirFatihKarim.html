@@ -5,18 +5,25 @@
     <title>Profil Pribadi</title>
 </head>
 <body>
+    <!-- tag h2 ini untuk memunculkan judul di web dengan huruf sebesar heading 2--->
     <h2>Profil Pribadi</h2>
+    <!-- tag table ini untuk membuat tabel yang berisi profilo fot dan video--->
     <table border="1">
+        <!-- tag tr untuk membuat row pada table--->
         <tr>
+            <!-- tag th untuk membuat header pada table--->
             <th>
                 Profile Photo
             </th>
         </tr>
+        <!-- tag tr ini untuk membuat row pada table yang berisi foto profil--->
         <tr>
             <td><img src="BBALL.jpg" width="200" height="200"></tr></td>
+        <!-- tag th untuk membuat header pada table--->
         <th>
             Introduction Video
         </th>
+        <!-- tag tr ini untuk membuat row pada table yang berisi video introduction--->
         <tr>
             <td><video width="400" height="300" controls>
                 <source src="IntroVid.mp4" type="video/mp4"></video>
@@ -26,6 +33,7 @@
     <h3>About Me</h3>
     <p>I am so kind and Handsome</p>
     <h3>Skills</h3>
+    <!-- tag table ini untuk membuat tabel yang berisi profilo fot dan video--->
     <table width="80%" height="50%" border="1">
         <tr>
             <th>Skills</th>
@@ -40,31 +48,47 @@
             <td>Lil Bit</td>
         </tr>
     </table>
+    <!-- tag h4 ini untuk memunculkan subjudul di web dengan huruf sebesar heading 3--->
     <h3>Contact Me</h3>
+    <!-- tag form untuk membuat formulir pada web--->
     <form action="">
+        <!-- tag div untuk membuat baris baru formulir pada web--->
         <div class="form-group">
+            <!-- tag label untuk membuat baris baru pada web--->
             <label for="nama_id">Nama:</label>
+            <!-- tag input untuk menginputkan nama dan berisi value nya yaitu nama siapa--->
             <input type="text" name="nama_input" id="nama_id" placeholder="Input Nama" value="Joko" readonly>
         </div>
         <div class="form-group">
             <label for="kelas_id">Kelas:</label>
+            <!-- tag input untuk menginputkan kelas dan berisi value nya yaitu kelas berapa--->
             <input type="text" name="kelas_input" id="kelas_id" placeholder="Input Kelas" value="IT-46-69" readonly>
         </div>
         <div class="form-group">
             <label for="email_id">Email:</label>
+            <!-- tag input untuk menginputkan email dan berisi value nya yaitu email siapa--->
             <input type="email" name="email_input" id="email_id" placeholder="joks@blabla.com">
         </div>
+        <!-- tag div untuk membuat baris baru formulir pada web--->
         <div class="form-group">
+            <!-- tag label untuk membuat label atau spesifikasi dari nama input--->
             <label for="pesan">Pesan:</label>
+            <!-- tag textarea untuk membuat area text lebih besar agar bisa diisi dalam jumlah banyak--->
             <textarea id="pesan" name="pesan" rows="5"></textarea>
         </div>
         <div class="form-actions">
+            <!-- tag button untuk membuat tombol mengirim pesan--->
             <button type="kirim" class="btn-kirim">Kirim Pesan</button>
         </div>
     </form>
+    <!-- tag h4 untuk membuat subjudul sebesar heading 4--->
     <h4>Social Media:</h4>
+    <!-- tag table untuk membuat tabel--->
     <table>
+        <!-- tag tr untuk membuat row pada tabel--->
         <tr>
+            <!-- tag td untuk membuat kolom pada tabel--->
+            <!-- tag a untuk membuat shortcut link pada web--->
             <td><a href="https://www.instagram.com/emr.fatih/">Instagram</a></td>
             <td><a href="https://github.com/Xevoux">| GitHub</a></td>
         </tr>
